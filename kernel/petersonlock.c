@@ -7,7 +7,7 @@ petersonlock.c
 #include "memlayout.h"
 #include "riscv.h"
 #include "spinlock.h"
-#include "proc.h"         // <-- REQUIRED for yield()
+#include "proc.h"         
 #include "defs.h"
 
 struct petersonlock plock[NPLOCK];
